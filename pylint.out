@@ -1,0 +1,12 @@
+************* Module project1.authentication
+project1/authentication.py:16: [C0303(trailing-whitespace), ] Trailing whitespace
+project1/authentication.py:4: [C0111(missing-docstring), login] Missing function docstring
+project1/authentication.py:13: [W0703(broad-except), login] Catching too general exception Exception
+project1/authentication.py:9: [R1703(simplifiable-if-statement), login] The if statement can be replaced with 'return bool(test)'
+project1/authentication.py:9: [R1705(no-else-return), login] Unnecessary "else" after "return"
+project1/authentication.py:13: [W0612(unused-variable), login] Unused variable 'exc'
+project1/authentication.py:17: [C0111(missing-docstring), logout] Missing function docstring
+
+------------------------------------------------------------------
+Your code has been rated at 5.00/10 (previous run: 5.00/10, +0.00)
+
