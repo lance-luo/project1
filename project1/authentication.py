@@ -10,7 +10,7 @@ def login(username, password):
             return True
         else:
             return False
-    except Exception, exc:
+    except Exception, exc: #TODO - To remove the unused variable.
         print "I can't authenticate you."
         return False
         
@@ -18,4 +18,4 @@ def logout():
     print 'this line will not be covered by test cases.'
     print 'this line will not be covered by test cases as well.'
     
-#URGENT: signup() function to add ASAP.
+#URGENT - signup() function to add ASAP.
