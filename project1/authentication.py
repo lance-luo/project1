@@ -17,3 +17,5 @@ def login(username, password):
 def logout():
     print 'this line will not be covered by test cases.'
     print 'this line will not be covered by test cases as well.'
+    
+#URGENT: A function to sign up to add
